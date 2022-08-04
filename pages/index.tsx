@@ -9,13 +9,6 @@ export const Home: NextPage = () => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
         <title>Hi, this is Allan Garcia speaking!</title>
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
@@ -42,7 +35,7 @@ export const Home: NextPage = () => {
             since January of 2010.
           </p>
           <p className="py-2 text-lg text-sky-500 text-opacity-80 font-mono sm:text-xl">
-            I make accessible apps that eveybody can use, specialy with
+            I make accessible apps that everybody can use, especially with
             low-vision and blind people in mind.
           </p>
           <p className="py-2 text-lg text-sky-500 text-opacity-80 font-mono sm:text-xl">

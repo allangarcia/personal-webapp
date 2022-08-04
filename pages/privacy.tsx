@@ -2,7 +2,7 @@ import type { NextPage } from "next"
 import Head from "next/head"
 import Link from "next/link"
 
-export const Home: NextPage = () => {
+export const Privacy: NextPage = () => {
   return (
     <div className="bg-zinc-800">
       <Head>
@@ -35,20 +35,20 @@ export const Home: NextPage = () => {
           </p>
           <p className="py-2 text-lg text-sky-500 text-opacity-80 font-mono sm:text-xl">
             We only retain collected information for as long as necessary to
-            provide you with your requested service. What data we store,
+            provide you with your requested service. What data do we store,
             we&#39;ll protect within commercially acceptable means to prevent
             loss and theft, as well as unauthorized access, disclosure, copying,
             use or modification.
           </p>
           <p className="py-2 text-lg text-sky-500 text-opacity-80 font-mono sm:text-xl">
             We don’t share any personally identifying information publicly or
-            with third-parties, except when required to by law.
+            with third parties, except when required to by law.
           </p>
           <p className="py-2 text-lg text-sky-500 text-opacity-80 font-mono sm:text-xl">
-            Our app may link to noreferrer sites that are not operated by us.
-            Please be aware that we have no control over the content and
-            practices of these sites, and cannot accept responsibility or
-            liability for their respective privacy policies.
+            Our app may link to &ldquo;noreferrer&rdquo; sites that are not
+            operated by us. Please be aware that we have no control over the
+            content and practices of these sites, and cannot accept
+            responsibility or liability for their respective privacy policies.
           </p>
           <p className="py-2 text-lg text-sky-500 text-opacity-80 font-mono sm:text-xl">
             You are free to refuse our request for your personal information,
@@ -89,7 +89,7 @@ export const Home: NextPage = () => {
                 href="https://www.linkedin.com/in/allangarcia/"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="noreferrer link to LinkedIn."
+                aria-label="no-referrer link to LinkedIn."
               >
                 LinkedIn
               </a>
@@ -100,7 +100,7 @@ export const Home: NextPage = () => {
                 href="https://github.com/allangarcia"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="noreferrer link to Git-Hub."
+                aria-label="no-referrer link to Git-Hub."
               >
                 GitHub
               </a>
@@ -111,7 +111,7 @@ export const Home: NextPage = () => {
                 href="https://www.twitter.com/AllanGarciaDev"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="noreferrer link to Twitter."
+                aria-label="no-referrer link to Twitter."
               >
                 Twitter
               </a>
@@ -122,7 +122,7 @@ export const Home: NextPage = () => {
                 href="https://apps.apple.com/br/developer/allan-garcia/id1005147963"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="noreferrer link to App Store Deveoper Page."
+                aria-label="no-referrer link to App Store Developer Page."
               >
                 AppStore
               </a>
@@ -133,7 +133,7 @@ export const Home: NextPage = () => {
                 href="https://www.youtube.com/channel/UCcV6qHiwx_9clQzWMbqHLqA"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="noreferrer link to You-Tube."
+                aria-label="no-referrer link to You-Tube."
               >
                 YouTube
               </a>
@@ -156,4 +156,4 @@ export const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Privacy

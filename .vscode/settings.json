@@ -1,0 +1,24 @@
+{
+  "grammarly.selectors": [
+    {
+      "language": "typescriptreact",
+      "scheme": "file",
+      "pattern": "pages/index.tsx"
+    },
+    {
+      "language": "typescriptreact",
+      "scheme": "file",
+      "pattern": "pages/privacy.tsx"
+    },
+    {
+      "language": "typescriptreact",
+      "scheme": "file",
+      "pattern": "pages/_document.tsx"
+    },
+    {
+      "language": "typescriptreact",
+      "scheme": "file",
+      "pattern": "pages/_app.tsx"
+    }
+  ]
+}
