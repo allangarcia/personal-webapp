@@ -1,16 +1,17 @@
 import "../styles/globals.css"
 import type { AppProps } from "next/app"
-import Layout from "../components/layout"
 import Script from "next/script"
+import Footer from "../components/footer"
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Script
+        id="google-analytics-load-1"
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       />
-      <Script strategy="lazyOnload">
+      <Script id="google-analytics-load-2" strategy="lazyOnload">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -20,10 +21,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             });
         `}
       </Script>
-
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <Component {...pageProps} />
+      <Footer />
     </>
   )
 }

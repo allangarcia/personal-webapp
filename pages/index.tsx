@@ -20,7 +20,7 @@ export const Home: NextPage = () => {
             The author of{" "}
             <Link href="/manifesto">
               <a className="underline italic font-serif hover:text-orange-400">
-                "A Senior Software Engineer Manifesto"
+                &quot;A Senior Software Engineer Manifesto&quot;
               </a>
             </Link>{" "}
             (2022)
