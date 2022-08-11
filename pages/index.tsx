@@ -12,8 +12,19 @@ export const Home: NextPage = () => {
         <title>Hi, this is Allan Garcia speaking!</title>
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
+
+      {/* begin content */}
       <div className="p-5 flex flex-col flex-shrink md:min-h-screen justify-center">
         <main className="text-center">
+          <h2 className="py-12 text-1xl text-sky-500 md:text-2xl">
+            The author of{" "}
+            <Link href="/manifesto">
+              <a className="underline italic font-serif hover:text-orange-400">
+                "A Senior Software Engineer Manifesto"
+              </a>
+            </Link>{" "}
+            (2022)
+          </h2>
           <div className="inline-block border-solid border-8 border-orange-400 rounded-full overflow-hidden h-52 w-52 sm:h-64 sm:w-64">
             <Image
               className="object-fill"
@@ -27,6 +38,7 @@ export const Home: NextPage = () => {
           <h1 className="py-6 text-5xl text-orange-400 font-semibold md:text-6xl">
             This is Allan Garcia speaking!
           </h1>
+
           <p className="py-3 text-2xl text-sky-500 text-opacity-80 font-mono sm:text-3xl">
             Senior iOS Software Engineer and Associate Professor
           </p>
@@ -112,81 +124,7 @@ export const Home: NextPage = () => {
           </ul>
         </main>
       </div>
-      <div className="p-5 bg-sky-900 bg-opacity-20">
-        <footer className="flex flex-row justify-between items-center md:container md:mx-auto">
-          <h6 className="text-xs text-sky-500 text-opacity-80 font-semibold">
-            <i className="far fa-copyright"></i> Copyright 2022
-          </h6>
-          <ul className="flex flex-col text-right md:flex-row gap-4 md:gap-12 text-xs text-sky-500 text-opacity-80 text-semibold font-mono">
-            <li>
-              <a
-                className="hover:text-orange-400"
-                href="https://www.linkedin.com/in/allangarcia/"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="noreferrer link to LinkedIn."
-              >
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-orange-400"
-                href="https://github.com/allangarcia"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="noreferrer link to Git-Hub."
-              >
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-orange-400"
-                href="https://www.twitter.com/AllanGarciaDev"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="noreferrer link to Twitter."
-              >
-                Twitter
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-orange-400"
-                href="https://apps.apple.com/br/developer/allan-garcia/id1005147963"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="noreferrer link to App Store Deveoper Page."
-              >
-                AppStore
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-orange-400"
-                href="https://www.youtube.com/channel/UCcV6qHiwx_9clQzWMbqHLqA"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="noreferrer link to You-Tube."
-              >
-                YouTube
-              </a>
-            </li>
-            <li>
-              <Link href="/privacy">
-                <a
-                  className="hover:text-orange-400"
-                  rel="privacy policy"
-                  aria-label="Jump to Privacy Policy"
-                >
-                  Privacy Policy
-                </a>
-              </Link>
-            </li>
-          </ul>
-        </footer>
-      </div>
+      {/* end content */}
     </div>
   )
 }
