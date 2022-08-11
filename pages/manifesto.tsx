@@ -34,7 +34,7 @@ export const Privacy: NextPage = () => {
       <div className="p-5 flex flex-col flex-shrink md:min-h-screen">
         <article className="text-justify">
           <h2 className="py-6 text-3xl text-orange-400 font-semibold md:text-4xl">
-            The Senior Software Engineer Manifesto
+            A Senior Software Engineer Manifesto
           </h2>
           <p className="py-2 text-lg text-sky-500 text-opacity-80 font-mono sm:text-xl">
             We live in a strange time, where tech companies change the names of
