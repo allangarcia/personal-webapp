@@ -262,8 +262,8 @@ export const Privacy: NextPage = () => {
           </p>
           <p className="py-2 text-lg text-sky-500 text-opacity-80 font-mono sm:text-xl">
             If a Senior Software Developer already knows some languages (yes, in
-            plural) he is a Senior, and a new language will not be a problem for
-            him/her.
+            plural) he/she is a Senior, and a new language will not be a problem
+            for him/her.
           </p>
           <h3 className="py-6 text-2xl text-orange-400 font-semibold md:text-3xl">
             6th - How data is persisted
@@ -372,7 +372,7 @@ export const Privacy: NextPage = () => {
             A good Senior Software Engineer learns all those concepts and when
             they are mixed in a way that even himself/herself didn&apos;t know
             from or when he/she learn that concept. Then you can consider he/she
-            a Senior Software Developer. And possible, a Manager.
+            a Senior Software Engineer. And possible, a Manager.
           </p>
           <h6 className="py-6 text-lg text-orange-400 text-opacity-80 font-mono sm:text-xl">
             Before finishing...
