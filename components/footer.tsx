@@ -15,7 +15,7 @@ const Footer: NextPage = () => {
               href="https://www.linkedin.com/in/allangarcia/"
               target="_blank"
               rel="noreferrer"
-              aria-label="noreferrer link to LinkedIn."
+              aria-label="External link to LinkedIn."
             >
               LinkedIn
             </a>
@@ -26,7 +26,7 @@ const Footer: NextPage = () => {
               href="https://github.com/allangarcia"
               target="_blank"
               rel="noreferrer"
-              aria-label="noreferrer link to Git-Hub."
+              aria-label="External link to Git-Hub."
             >
               GitHub
             </a>
@@ -37,7 +37,7 @@ const Footer: NextPage = () => {
               href="https://www.twitter.com/AllanGarciaDev"
               target="_blank"
               rel="noreferrer"
-              aria-label="noreferrer link to Twitter."
+              aria-label="External link to Twitter."
             >
               Twitter
             </a>
@@ -48,7 +48,7 @@ const Footer: NextPage = () => {
               href="https://apps.apple.com/br/developer/allan-garcia/id1005147963"
               target="_blank"
               rel="noreferrer"
-              aria-label="noreferrer link to App Store Deveoper Page."
+              aria-label="External link to App Store Deveoper Page."
             >
               AppStore
             </a>
@@ -56,10 +56,10 @@ const Footer: NextPage = () => {
           <li>
             <a
               className="hover:text-orange-400"
-              href="https://www.youtube.com/channel/UCcV6qHiwx_9clQzWMbqHLqA"
+              href="https://www.youtube.com/c/allangarcia"
               target="_blank"
               rel="noreferrer"
-              aria-label="noreferrer link to You-Tube."
+              aria-label="External link to You-Tube."
             >
               YouTube
             </a>

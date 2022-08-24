@@ -60,7 +60,7 @@ export const Home: NextPage = () => {
                 href="https://www.linkedin.com/in/allangarcia/"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="noreferrer link to LinkedIn."
+                aria-label="External link to LinkedIn."
               >
                 <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
               </a>
@@ -71,7 +71,7 @@ export const Home: NextPage = () => {
                 href="https://github.com/allangarcia"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="noreferrer link to Git-Hub."
+                aria-label="External link to Git-Hub."
               >
                 <i
                   className="fa-brands fa-github-square"
@@ -85,7 +85,7 @@ export const Home: NextPage = () => {
                 href="https://www.twitter.com/AllanGarciaDev"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="noreferrer link to Twitter."
+                aria-label="External link to Twitter."
               >
                 <i
                   className="fa-brands fa-twitter-square"
@@ -99,7 +99,7 @@ export const Home: NextPage = () => {
                 href="https://apps.apple.com/br/developer/allan-garcia/id1005147963"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="noreferrer link to App Store Deveoper Page."
+                aria-label="External link to App Store Deveoper Page."
               >
                 <i
                   className="fa-brands fa-app-store-ios"
@@ -110,10 +110,10 @@ export const Home: NextPage = () => {
             <li>
               <a
                 className="text-7xl text-sky-500 text-opacity-80 sm:text-6xl hover:text-orange-400"
-                href="https://www.youtube.com/channel/UCcV6qHiwx_9clQzWMbqHLqA"
+                href="https://www.youtube.com/c/allangarcia"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="noreferrer link to You-Tube."
+                aria-label="External link to You-Tube."
               >
                 <i
                   className="fa-brands fa-youtube-square"
