@@ -1,6 +1,8 @@
-import type { NextPage } from "next"
-import Head from "next/head"
-import Link from "next/link"
+import type { NextPage } from 'next'
+import Head from 'next/head'
+
+import BackToHome from '../components/backtohome'
+import BackToHomeFooter from '../components/backtohomefooter'
 
 export const Privacy: NextPage = () => {
   return (
@@ -12,19 +14,8 @@ export const Privacy: NextPage = () => {
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
 
-      {/* begin header */}
-      <div className="p-5 bg-sky-900 bg-opacity-20">
-        <Link href="/">
-          <a>
-            <h6 className="text-lg text-sky-500 text-opacity-80 font-mono sm:text-xl hover:text-orange-400">
-              <i className="fa fa-house" aria-label="Back to homepage"></i> Home
-            </h6>
-          </a>
-        </Link>
-      </div>
-      {/* end header */}
+      <BackToHome />
 
-      {/* begin content */}
       <div className="p-5 flex flex-col flex-shrink md:min-h-screen">
         <article className="text-justify">
           <h2 className="py-6 text-3xl text-orange-400 font-semibold md:text-4xl">
@@ -72,20 +63,10 @@ export const Privacy: NextPage = () => {
           <p className="py-2 text-lg text-sky-500 text-opacity-80 font-mono sm:text-xl">
             This policy is effective as of 15 July 2022.
           </p>
-          <Link href="/">
-            <a>
-              <h6 className="py-6 text-lg text-sky-500 text-opacity-80 font-mono sm:text-xl hover:text-orange-400">
-                <i
-                  className="fa fa-arrow-left"
-                  aria-label="Back to homepage"
-                ></i>{" "}
-                Back to homepage
-              </h6>
-            </a>
-          </Link>
+
+          <BackToHomeFooter />
         </article>
       </div>
-      {/* end content */}
     </div>
   )
 }

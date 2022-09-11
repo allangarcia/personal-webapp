@@ -1,7 +1,7 @@
-import { NextPage } from "next"
-import Link from "next/link"
+import React, { FunctionComponent } from 'react'
+import Link from 'next/link'
 
-const Footer: NextPage = () => {
+const Footer: FunctionComponent = () => {
   return (
     <div className="p-5 bg-sky-900 bg-opacity-20">
       <footer className="flex flex-row justify-between items-center md:container md:mx-auto">
@@ -40,6 +40,17 @@ const Footer: NextPage = () => {
               aria-label="External link to Twitter."
             >
               Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              className="hover:text-orange-400"
+              href="https://www.instagram.com/allangarciadev"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="External link to Instagram."
+            >
+              Instagram
             </a>
           </li>
           <li>
