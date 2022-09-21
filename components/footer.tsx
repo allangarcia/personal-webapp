@@ -53,6 +53,18 @@ const Footer: FunctionComponent = () => {
               Instagram
             </a>
           </li>
+
+          <li>
+            <a
+              className="hover:text-orange-400"
+              href="https://pin.it/6e1d9ZR"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="External link to Pinterest."
+            >
+              Pinterest
+            </a>
+          </li>
           <li>
             <a
               className="hover:text-orange-400"
