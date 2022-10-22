@@ -53,7 +53,6 @@ const Footer: FunctionComponent = () => {
               Instagram
             </a>
           </li>
-
           <li>
             <a
               className="hover:text-orange-400"
@@ -63,6 +62,17 @@ const Footer: FunctionComponent = () => {
               aria-label="External link to Pinterest."
             >
               Pinterest
+            </a>
+          </li>
+          <li>
+            <a
+              className="hover:text-orange-400"
+              href="https://stackoverflow.com/users/1636456/allan-garcia"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="External link to Pinterest."
+            >
+              StackOverflow
             </a>
           </li>
           <li>
