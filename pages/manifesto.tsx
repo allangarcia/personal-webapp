@@ -368,7 +368,7 @@ export const Privacy: NextPage = () => {
             Twitter account{' '}
             <a
               className="y-6 text-lg text-orange-400 text-opacity-80 font-mono sm:text-xl hover:underline"
-              href="https://twitter.com/AllanGarciaDev"
+              href="https://twitter.com/profallangarcia"
               target="_blank"
               rel="noreferrer"
               aria-label="noreferrer link to Twitter."

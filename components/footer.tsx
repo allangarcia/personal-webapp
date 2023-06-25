@@ -34,7 +34,7 @@ const Footer: FunctionComponent = () => {
           <li>
             <a
               className="hover:text-orange-400"
-              href="https://www.twitter.com/AllanGarciaDev"
+              href="https://www.twitter.com/profallangarcia"
               target="_blank"
               rel="noreferrer"
               aria-label="External link to Twitter."
@@ -45,7 +45,7 @@ const Footer: FunctionComponent = () => {
           <li>
             <a
               className="hover:text-orange-400"
-              href="https://www.instagram.com/allangarciadev"
+              href="https://www.instagram.com/prof.allangarcia"
               target="_blank"
               rel="noreferrer"
               aria-label="External link to Instagram."
@@ -56,7 +56,7 @@ const Footer: FunctionComponent = () => {
           <li>
             <a
               className="hover:text-orange-400"
-              href="https://pin.it/6e1d9ZR"
+              href="https://www.pinterest.com/profallangarcia"
               target="_blank"
               rel="noreferrer"
               aria-label="External link to Pinterest."
@@ -89,7 +89,7 @@ const Footer: FunctionComponent = () => {
           <li>
             <a
               className="hover:text-orange-400"
-              href="https://www.youtube.com/c/allangarcia"
+              href="https://www.youtube.com/@allangarcia"
               target="_blank"
               rel="noreferrer"
               aria-label="External link to You-Tube."
