@@ -1,14 +1,14 @@
-import React, { FunctionComponent } from 'react'
 import Link from 'next/link'
+import React, { FunctionComponent } from 'react'
 
 const Footer: FunctionComponent = () => {
   return (
     <div className="p-5 bg-sky-900 bg-opacity-20">
-      <footer className="flex flex-row justify-between items-center md:container md:mx-auto">
-        <h6 className="text-xs text-sky-500 text-opacity-80 font-semibold">
-          <i className="far fa-copyright"></i> Copyright 2022
+      <footer className="flex flex-row justify-between items-center lg:container lg:mx-auto lg:px-0 2xl:px-28">
+        <h6 className="gap-4 text-xs text-sky-500 text-opacity-80 text-semibold font-mono">
+          <i className="far fa-copyright" /> Copyright 2022-2023
         </h6>
-        <ul className="flex flex-col text-right md:flex-row gap-4 md:gap-12 text-xs text-sky-500 text-opacity-80 text-semibold font-mono">
+        <ul className="flex flex-col gap-4 text-right text-xs text-sky-500 text-opacity-80 text-semibold font-mono lg:flex-row">
           <li>
             <a
               className="hover:text-orange-400"
@@ -70,9 +70,20 @@ const Footer: FunctionComponent = () => {
               href="https://stackoverflow.com/users/1636456/allan-garcia"
               target="_blank"
               rel="noreferrer"
-              aria-label="External link to Pinterest."
+              aria-label="External link to Stack Overflow."
             >
-              StackOverflow
+              Stackoverflow
+            </a>
+          </li>
+          <li>
+            <a
+              className="hover:text-orange-400"
+              href="https://medium.com/@prof.allangarcia"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="External link to Medium."
+            >
+              Medium
             </a>
           </li>
           <li>
@@ -104,7 +115,7 @@ const Footer: FunctionComponent = () => {
                 rel="privacy policy"
                 aria-label="Jump to Privacy Policy"
               >
-                Privacy Policy
+                Privacy&nbsp;Policy
               </a>
             </Link>
           </li>
