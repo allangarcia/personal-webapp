@@ -11,12 +11,13 @@
     "publish": "cd ../allangarcia.github.io/ && rm -rf * && cp -rf ../personal-webapp/out/* ."
   },
   "dependencies": {
-    "next": "12.2.2",
-    "npm": "^9.7.2",
+    "next": "^12.2.2",
+    "npm": "^9.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/next": "^9.0.0",
     "@types/node": "18.0.4",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
