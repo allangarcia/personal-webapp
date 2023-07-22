@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react'
 
 const IconsMenu: FunctionComponent = () => {
   return (
-    <ul className="py-6 inline-grid grid-cols-2 grid-flow-row gap-6 sm:grid-cols-4 md:grid-cols-8">
+    <ul className="py-6 inline-grid grid-cols-3 grid-flow-row gap-8 md:grid-cols-5 xl:grid-cols-9">
       <li>
         <a
           className="text-7xl text-sky-500 text-opacity-80 sm:text-6xl hover:text-orange-400"
@@ -67,6 +67,17 @@ const IconsMenu: FunctionComponent = () => {
           aria-label="External link to Stackoverflow."
         >
           <i className="fa-brands fa-stack-overflow" aria-hidden="true" />
+        </a>
+      </li>
+      <li>
+        <a
+          className="text-7xl text-sky-500 text-opacity-80 sm:text-6xl hover:text-orange-400"
+          href="https://medium.com/@prof.allangarcia"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="External link to Medium."
+        >
+          <i className="fa-brands fa-medium" aria-hidden="true" />
         </a>
       </li>
       <li>

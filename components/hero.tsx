@@ -9,12 +9,20 @@ const Hero: FunctionComponent = () => {
     <main className="text-center">
       <h2 className="py-12 text-1xl text-sky-500 md:text-2xl">
         The author of{' '}
-        <Link href="/manifesto">
+        <Link href="https://medium.com/@prof.allangarcia/a-senior-software-engineer-manifesto-431fb34194f5">
           <a className="underline italic font-serif hover:text-orange-400">
             &quot;A Senior Software Engineer Manifesto&quot;
           </a>
         </Link>{' '}
         (2022)
+        <br />
+        <span className="inline-block my-2 font-thin text-orange-400 scale-75">
+          Migrated to{' '}
+          <span className="border-b-2 border-orange-400">
+            <Link href="https://medium.com/@prof.allangarcia">Medium</Link>
+          </span>{' '}
+          as my new platform for longer publications.
+        </span>
       </h2>
       <div className="inline-block border-solid border-8 border-orange-400 rounded-full overflow-hidden h-52 w-52 sm:h-64 sm:w-64">
         <Image
